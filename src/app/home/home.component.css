@@ -1,0 +1,20 @@
+.fixed-bg-image{
+    
+    background-image: url('https://thumbs.dreamstime.com/b/woman-praying-free-bird-enjoying-nature-sunset-background-hope-concept-94227839.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:800px;
+    margin-left: 10px;
+}
+
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+   
+   
+  }

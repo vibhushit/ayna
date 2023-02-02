@@ -1,0 +1,12 @@
+<!-- header.component.html -->
+<header>
+  <button (click)="toggleNav()" class="toggle-nav-btn">&#9776;</button>
+  <nav class="sidenav" [ngClass]="{'sidenav-open': isNavOpen}">
+    <a href="#" class="logo">AYNA</a>
+    <a href="#" class="sidenav-item">Home</a>
+    <a href="#" class="sidenav-item">Product Categories</a>
+    <a class="closeButton d-sm-block d-md-none" (click)="toggleNav()" >&times;</a>
+  </nav>
+</header>
+
+

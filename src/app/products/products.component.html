@@ -1,0 +1,114 @@
+
+<div class="container-fluid border border-success ">
+    <br><br><br><br>
+
+    <!--This is product card loop for md - xl screen-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-none d-md-block" *ngFor="let product of products" style="background-color: darkgreen; color:black;">
+               
+                <a href="#">
+                <div class="card text-center " >
+                    <img src= {{product.imgPath}} alt="product Name" class="card-img-top img-fluid">
+                    <div class="card-img-overlay d-flex align-items-center">
+                        <h4 class="card-title w-100"> {{product.productName}} </h4>
+                    </div>
+                </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    
+    
+        <!--This is product card loop for md - xl screen-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-md-none d-sm-block" *ngFor="let product of products" style="background-color: darkgreen; color:black;">
+                   <a href="#">
+                    <div class="card text-center card-sm" >
+                        <img src= {{product.imgPath}} alt="product Name" class="card-img-top-sm img-fluid">
+                        <div class="card-img-overlay overlay-sm d-flex align-items-center">
+                            <h4 class="card-title w-100"> {{product.productName}} </h4>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    
+
+    
+    <br><br>
+    <div class="row">
+
+        <!--This is a product card-->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4" style="background-color: aliceblue; color:black;">
+           
+            <div class="card text-center">
+                <img src="/assets/images/product.jpg" alt="product name" class="card-img-top img-fluid">
+                <div class="card-img-overlay d-flex align-items-center">
+                  <h4 class="card-title w-100" >Product Name</h4>
+                </div>
+              </div>
+
+            
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4" style="background-color:aqua; color:black;">
+            this is second col
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4" style="background-color:aliceblue; color:black;">
+            this is third col
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-4" style="background-color: pink; color:black;">
+            this is first col
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4" style="background-color:lightblue; color:black;">
+            this is second col
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4" style="background-color:lightcyan; color:black;">
+            this is third col
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+    </div>
+   
+
+    <br/><br/>
+
+    <div class="row">
+        <div class="col-12 " style="background-color: beige; color:black;">
+            keep in touch
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+        
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6" style="background-color: aqua; color:black;">
+            Contact us
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+        <div class="col-12 col-md-6" style="background-color:aliceblue; color:black;">
+            Directions !
+            <br/><br/><br/><br/><br/><br/>
+        </div>
+    </div>
+
+    <div class="row">
+        <app-footer></app-footer>
+        
+    </div>
+   
+       
+    
+</div>
+

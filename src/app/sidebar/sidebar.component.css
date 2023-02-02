@@ -1,0 +1,39 @@
+.border-black {
+    border-style: solid;
+}
+
+.sidebar {
+    /* width:250px; */
+    height: 100%;
+    /* // position:fixed; */
+    background-color: bisque;
+
+}
+
+.nav-items {
+    margin: 10px;
+    margin-top: 60px;
+    padding-top: 60px;
+    position: fixed;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 0;
+    color: yellow;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    /* background-color: lightgray; */
+    color: red;
+    cursor: pointer;
+}
+
+.active {
+    /* background-color: black; */
+    color:black;
+}
