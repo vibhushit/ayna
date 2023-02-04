@@ -11,6 +11,7 @@ import { TestComponent } from './test/test.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainComponent } from './main/main.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     TestComponent,
     SidebarComponent,
     MainComponent,
-    NavbarComponent
+    NavbarComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

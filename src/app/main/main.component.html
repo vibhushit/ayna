@@ -1,197 +1,241 @@
-<style>
-    input[type="email"] {
-      width: 60%;
-      padding: 10px;
-      border-radius: 0;
-      border: 1px solid black;
-      margin-right: 10px;
-    }
-    .ng-invalid.ng-touched {
-      border: 1px solid red;
-    }
+<div class="container-fluid border border-dark ">
 
-    button {
-      width: 20%;
-      padding: 10px;
-      border-radius: 0;
-      border: 1px solid gray;
-      background-color: gray;
-      color: white;
-    }
 
-    button.dark {
-      background-color: #25D366;
-      color: white;
-      border: 1px solid #25D366;
-    }
-
-    .confirm-msg {
-      display: none;
-      text-align: center;
-    }
-  </style>
-<div class="container-fluid border border-success ">
-
-        
-    <div class="fixed-bg-image"></div>
-    <div class="row">
-        <div>
-            <br/><br/>
-            <p align="center">About us</p>
-            <br/><br/>
+    <div class="fixed-bg-image">
+        <div class="one-stop-solution border border-dark ">
+            <div class="title">
+                One stop for all your manufacturing needs!
+            </div>
+            <div class="subtitle">
+                Our expertise lies in curating and producing fashion apparel and accessories for multiple brands based
+                in the US and EU.
+            </div>
+            <a href="mailto:vibhu@gmail.com">
+                <button class="button button1">CONTACT US</button>
+            </a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12 col-md-6" style="background-color: aliceblue; color:black;">
-            this is first col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-        <div class="col-12 col-md-6" style="background-color:aqua; color:black;">
-            this is second col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-6" style="background-color: aqua; color:black;">
-            this is third col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-        <div class="col-12 col-md-6" style="background-color:aliceblue; color:black;">
-            this is fourth col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-    </div>
+    <br>
 
     <div class="row">
-        <div class="col-12 col-md-6" style="background-color: aliceblue; color:black;">
-            this is 5th col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-        <div class="col-12 col-md-6" style="background-color:aqua; color:black;">
-            this is 6th col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-6" style="background-color: aqua; color:black;">
-            this is 7th col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-        <div class="col-12 col-md-6" style="background-color:aliceblue; color:black;">
-            this is 8th col
-            <br/><br/><br/><br/><br/><br/>
-        </div>
+        <div class="col-12 w-100 "
+            style="margin-top:40px; text-align: center; font-size: large; font-weight: bold; margin-bottom: 40px; color:#656d56">
+            ABOUT US </div>
+
     </div>
 
+    <!--Home Row img left-->
     <div class="row">
-        <div class="col-12 col-md-6" style="background-color: aliceblue; color:black;">
-            this is 9th col
-            <br/><br/><br/><br/><br/><br/>
+        <div class="col-12 col-md-6 ">
+            <div class="home-img" style="background-image: url(/assets/images/design.jpg);">
+
+            </div>
         </div>
-        <div class="col-12 col-md-6" style="background-color:aqua; color:black;">
-            this is 10th col
-            <br/><br/><br/><br/><br/><br/>
+        <div class="col-12 col-md-6 home-content">
+            <div class="home-item-title">Design</div>
+            <p style="letter-spacing: normal; font-size: 18px; color:#656d56 ">We create the collections as artistic
+                works
+                which are suitable for all tastes and needs to our valuable customers with our vision turning wearing to
+                art
+                with the experts in their fields. </p>
         </div>
     </div>
+    <br />
+    <!--Home row End-->
+
+    <!--Home Row img right-->
     <div class="row">
-        <div class="col-12 col-md-6" style="background-color: aqua; color:black;">
-            this is 11th col
-            <br/><br/><br/><br/><br/><br/>
+
+        <div class="col-12 col-md-6 home-content">
+            <div class="home-item-title">Pattern & sampling</div>
+            <p style="letter-spacing: normal; font-size: 18px; color:#656d56; ">The designs made in all sizes and forms
+                in
+                the computer environment with support of the technology, are made as patterns after the final approvals,
+                and
+                the prototype of the model is made with the materials to be used for the model. </p>
         </div>
-        <div class="col-12 col-md-6" style="background-color:aliceblue; color:black;">
-            this is 12th col
-            <br/><br/><br/><br/><br/><br/>
+
+        <div class="col-12 col-md-6 ">
+            <div class="home-img" style="background-image: url(/assets/images/cutting.jpg);">
+
+            </div>
         </div>
     </div>
+    <br />
+    <!--Home row End-->
 
-    <br/><br/>
-
+    <!--Home Row img left-->
     <div class="row">
-        <div class="col-12 " style="background-color: darkgreen; color:black;">
-            keep in touch
+        <div class="col-12 col-md-6 ">
+            <div class="home-img" style="background-image: url(/assets/images/printing.jpg);">
 
-            <div ng-app="app" ng-controller="ctrl" style="text-align: center;">
-                <h3 style="margin-bottom: 20px;">Keep in Touch</h3>
-                <p style="margin-bottom: 20px;">Be the first to hear about upcoming sales, hot trends, and new designs.</p>
-                <form name="form" ng-submit="submitForm()">
-                  <input type="email" placeholder="Email" name="email" ng-model="email" required ng-hide="submitted">
-                  <button type="submit" ng-class="{dark: form.$valid}" ng-disabled="!form.$valid" ng-hide="submitted">SIGN UP</button>
-                </form>
-                <div class="confirm-msg" ng-show="submitted">
-                  <p>Excellent! We're excited to send you our next update.</p>
-                  <p>To let us know it's really you and that you'd like to receive emails from us, please click the link in the confirmation email we just sent you. You can unsubscribe from these emails at any time.</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 home-content">
+            <div class="home-item-title">Printing & Embroidery</div>
+            <p style="letter-spacing: normal; font-size: 18px; color:#656d56 ">We take advantage of computer system in
+                printing & embroidery area. Our machines allowing conduct of more than one process at the same time
+                makes the production faster with the best quality results. </p>
+        </div>
+    </div>
+    <br />
+    <!--Home row End-->
+
+    <!--Home Row img right-->
+    <div class="row">
+
+        <div class="col-12 col-md-6 home-content">
+            <div class="home-item-title">Cutting & Sewing</div>
+            <p style="letter-spacing: normal; font-size: 18px; color:#656d56; ">Our production line equipped with the
+                cutting-edge equipments technology. <br>
+
+                We are meeting each of the needs and expectations at the best quality level and supporting all printing
+                and sewing types </p>
+        </div>
+
+        <div class="col-12 col-md-6 ">
+            <div class="home-img" style="background-image: url(/assets/images/cutting.jpg);">
+
+            </div>
+        </div>
+    </div>
+    <br />
+    <!--Home row End-->
+
+    <!--Home Row img left-->
+    <div class="row">
+        <div class="col-12 col-md-6 ">
+            <div class="home-img" style="background-image: url(/assets/images/finishing.jpg);">
+
+            </div>
+        </div>
+        <div class="col-12 col-md-6 home-content">
+            <div class="home-item-title">Finishing</div>
+            <p style="letter-spacing: normal; font-size: 18px; color:#656d56 ">Products shall be subject to cleaning,
+                ironing and interim controls before packaging as per the requests and expectations. </p>
+        </div>
+    </div>
+    <br />
+    <!--Home row End-->
+
+    <!--Home Row img right-->
+    <div class="row">
+
+        <div class="col-12 col-md-6 home-content">
+            <div class="home-item-title">Packaging & Delivery</div>
+            <p style="letter-spacing: normal; font-size: 18px; color:#656d56; ">We are capable of offering both
+                flat-pack and on- hanger shipments.Cutting Our production line equipped with the cutting-edge equipments
+                technology. Washing Conducting all washing models and type as per the trends and export requirements.
+            </p>
+        </div>
+
+        <div class="col-12 col-md-6 ">
+            <div class="home-img" style="background-image: url(/assets/images/packing.jpg);">
+
+            </div>
+        </div>
+    </div>
+    <br />
+    <!--Home row End-->
+
+    <br /><br />
+
+    <!--Keep in touch-->
+    <div class="row">
+        <div class="col-12 w-100 " style="height:400px;">
+            <div class="touch">
+                <div class="touch-title">
+                    Keep in Touch
                 </div>
-              </div>
-            <br/><br/><br/><br/><br/><br/>
 
-            <div ng-app="app" ng-controller="ctrl" class="center-align">
-                <h3 class="title">Keep in Touch</h3>
-                <p class="subtitle">Be the first to hear about upcoming sales, hot trends, and new designs.</p>
-                <form name="form" ng-submit="submitForm()">
-                  <input type="email" placeholder="Email" name="email" ng-model="email" required ng-hide="submitted" class="email-input" ng-focus="focusInput()">
-                  <button type="submit" ng-class="{dark: form.$valid}" ng-disabled="!form.$valid" ng-hide="submitted" class="signup-btn">SIGN UP</button>
+                <form>
+                    <div *ngIf="!thankyou">
+                        <p style="letter-spacing: normal; font-size: 18px; color:#656d56; ">Be the first to hear about
+                            upcoming sales, hot
+                            trends, and new designs.</p>
+                        <div class="form-group  align-items-center">
+
+                            <input type="email" class="form-control email" id="email" required placeholder="Email">
+                            <div class="valid-feedback ml-2">Valid email</div>
+                            <div class="invalid-feedback ml-2">Invalid email</div>
+                            <button type="submit" class="button button2 ml-2" (click)="submitForm()"> SIGN UP
+                            </button>
+                        </div>
+                    </div>
                 </form>
-                <div class="confirm-msg" ng-show="submitted">
-                  <p>Excellent! We're excited to send you our next update.</p>
-                  <p>To let us know it's really you and that you'd like to receive emails from us, please click the link in the confirmation email we just sent you. You can unsubscribe from these emails at any time.</p>
+                <div *ngIf="thankyou" class="text-center mt-3 ">
+                    <br>
+                    <h4 style="color:#656d56">Excellent! We're excited to send you our next update.</h4><br>
+                    <p style="letter-spacing: normal; font-size: 18px; color:#656d56; ">
+
+                        To let us know it's really you and that you'd like to receive emails from us, please click the
+                        link
+                        in the confirmation email we just sent you. You can unsubscribe from these emails at any time.
+                    </p>
                 </div>
-              </div>
-              <br/><br/><br/><br/><br/><br/>
-       
+            </div>
         </div>
-        
     </div>
+    <br />
+
+    <!--Keep in touch end-->
+
+    <!--Contact Us-->
 
     <div class="row">
-        <div class="col-12 col-md-6" style="background-color: black; color:white;">
-            Contact us
+        <div class="col-12 col-lg-6" style=" color:black;">
+
 
             <div class="contact-section">
-                <h3>CONTACT US</h3>
-                <p>We love to hear from our customers!</p>
-                <p>Do you have a question or concern? Are you looking for something in our shop? Let us know! We will get back to you as soon as possible with an answer.</p>
-                <a href="https://wa.me/918171817381?text=Hello%20I%20have%20a%20question%20about%20your%20products." target="_blank" class="btn" style="background-color: #25D366; color: white; padding: 10px 20px; border-radius: 0; ">
-                    <i class="fa fa-whatsapp" style="font-size: 20px;"></i> &nbsp; <span style=" font-size:16px;    "> Message us on WhatsApp</span>
-                  </a>
-                                  <p>Amba Industries, Block C, Industrial Area, Bulandshahr Road Industrial Area, Ghaziabad, Uttar Pradesh, India</p>
-                <p>Contact@aynafashionindustry.com</p>
-              </div>
-            <br/><br/><br/><br/><br/><br/>
+                <br /><br />
+                <h5 style="color:#656d56; font-weight: bold;" id="contact-title">CONTACT US</h5><br />
+
+                <p id="contact-heading">We love to hear from our customers!</p><br />
+
+                <p>Do you have a question or concern? Are you looking for something in our shop? Let us know! We will
+                    get back to you as soon as possible with an answer.</p><br />
+
+
+                <a href="https://wa.me/918171817381?text=Hello%20I%20have%20a%20question%20about%20your%20products."
+                    target="_blank" class="btn wp-btn">
+                    <span class="whatsapp-icon"></span> &nbsp; <span
+                        style=" font-size:16px; font-weight: bold; letter-spacing: 1px;  ">
+                        Message us on WhatsApp</span>
+                </a> <br /><br />
+
+
+                <p>Amba Industries, Block C, Industrial Area, Bulandshahr Road Industrial Area, Ghaziabad, Uttar
+                    Pradesh, India</p><br />
+
+                <p>Contact@aynafashionindustry.com</p><br />
+            </div>
+
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6" style="background-color:aliceblue; color:black;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.4353079982898!2d77.25114531502163!3d28.586714982435975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce30f4ac3df01%3A0xce443a18b2a7fd51!2sNizamuddin%20Railway%20Station!5e0!3m2!1sen!2sin!4v1675183375064!5m2!1sen!2sin" class="w-100" height="450" style="border:0; overflow: hidden;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="col-12 col-lg-6 col-lg-6 col-xl-6 ">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.4353079982898!2d77.25114531502163!3d28.586714982435975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce30f4ac3df01%3A0xce443a18b2a7fd51!2sNizamuddin%20Railway%20Station!5e0!3m2!1sen!2sin!4v1675183375064!5m2!1sen!2sin"
+                class="w-100 map-class" style="border:0; " allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+
     </div>
+
+    <!--Contact Us Ends-->
+    <br /><br />
+
+    <!--Social-->
+
+    <div class="row">
+        <app-social></app-social>
+    </div>
+
+
+    <br /><br />
+    <!--Social End-->
 
     <div class="row">
         <app-footer></app-footer>
-        
     </div>
 
-
-    <!-- <div class="row">
-        <div class="col-12 " style="background-color: beige; color:black;">
-            Footer
-            <br/><br/><br/><br/><br/><br/>
-        </div>
-        
-    </div> -->
-       
-    
 </div>
-
-
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script> -->
-<script>
-  var app = angular.module("app", []);
-
-app.controller("ctrl", function($scope) {
-  $scope.submitForm = function() {
-    $scope.submitted = true;
-  };
-  
-  $scope.focusInput = function() {
-    angular.element(document.querySelector(".email-input")).addClass("focused");
-  };
-});
-</script>

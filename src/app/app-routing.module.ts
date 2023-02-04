@@ -5,7 +5,7 @@ import { MainComponent } from './main/main.component';
 import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
-  {path:'', component:HomeComponent},
+  {path:'', component:MainComponent},
   {path:'main',component:MainComponent},
   {path:'home', component:HomeComponent},
   {path:'products', component:ProductsComponent}
